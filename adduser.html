@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Perencanaan Event Sales - Dashboard</title>
+    <title>Perencanaan Event Sales - Add User</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -191,49 +191,45 @@
                     <!-- Content Row -->
                     <div class="row">
                         <div class="col-md-12 my-4">
-                            .<a href="adduser.html" class="btn btn-primary">Add User</a>
-                        </div>
-                        <div class="col-md-12">
-                             <!-- DataTales Example -->
-                        <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Users</h6>
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                        <thead>
-                                            <tr>
-                                                <th>No</th>
-                                                <th>Nama</th>
-                                                <th>Role</th>
-                                                <th>Action</th>                                             
-                                            </tr>
-                                        </thead>
-                                        <tfoot>
-                                            <tr>
-                                                <th>No</th>
-                                                <th>Nama</th>
-                                                <th>Role</th>
-                                                <th>Action</th>   
-                                            </tr>
-                                        </tfoot>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>System Architect</td>
-                                                <td><span class="badge badge-pill badge-success">Admin</span></td>
-                                                <td><a href="#" class="btn btn-warning">Edit</a><a href="#" class="btn btn-danger mx-3">Delete</a></td>
-                                            </tr>
-                                           
-                                            
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                            <form action="">
+                                <div class="mb-3 row">
+                                    <label for="inputAcara" class="col-sm-2 col-form-label">Nama User</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputAcara" placeholder="john">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        
+
+                                <div class="mb-3 row">
+                                    <label for="inputAcara" class="col-sm-2 col-form-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputAcara" placeholder="name@example.com">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 row">
+                                    <label for="inputAcara" class="col-sm-2 col-form-label">Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputAcara" placeholder="password">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 row">
+                                    <label for="inputAcara" class="col-sm-2 col-form-label">Confirm Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputAcara" placeholder="confirm password">
+                                    </div>
+                                </div>
+
+                                <p>Role</p>
+                                <div class="checkbox">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+                                      </div>
+                                </div>
+
+                                <a href="#" class="btn btn-primary mt-4">Save</a>
+                            </form>
                         </div>
                     </div>
 
